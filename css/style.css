@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'raleway', sans-serif;
+    font-weight: 100;
+}
+
+h1 {
+    border-bottom: 8px solid #0099ff;
+    font-size: 68px;
+    padding-bottom: 10px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+.social-icons {
+    margin-top: 40px;
+}
+
+.social-icons span {
+    margin: 0 5px;
+}
+
+#center-block {
+    text-align: center;
+    width: 600px;
+}
+
+#center-block a {
+    color: #000000;
+}
+
+#center-block a:hover {
+    color: #0099ff;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#skills {
+    margin: 30px auto;
+    width: 90%;
+    text-align: left;
+}
+
+#skills li {
+    position: relative;
+    margin-bottom: 32px;
+    padding-left: 6px;
+}
+
+.bar_container,
+.bar {
+    position: absolute;
+    left: 0;
+    height: 5px;
+    border-radius: 5px;
+    content: "";
+}
+
+.bar_container {
+    bottom: -8px;
+    width: 100%;
+    background-color: #333;
+    text-align: right;
+}
+
+.bar {
+    top: 0;
+}
+
+.pct {
+    position: absolute;
+    top: -19px;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.3s linear;
+}
+
+.avatar {
+    border-radius: 20px;
+    background: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
+    padding: 4px;
+}
+
+/*/!* iPhone [portrait + landscape] *!/*/
+@media only screen and (max-device-width: 480px) {
+
+    #center-block {
+        width: 300px;
+    }
+}
